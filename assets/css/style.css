@@ -1,0 +1,192 @@
+* {
+
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	font-size: 16px;
+
+}
+html body {
+	font-family: 'Ubuntu', sans-serif;
+
+}
+#welpart{
+	background-color: #0400ff;
+	height:100vh;
+}
+
+nav {
+	position: fixed;
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    top: 0px;
+    left: 0px;
+    padding: 10px 90px;
+	background-color: #0400ff;
+	text-align: right;
+	opacity: 0.8;	
+	z-index: 999;
+}
+nav a {
+    font-size: 2vw;
+    text-decoration: none;
+	color: #ffffff;
+	padding-right: 3vw;
+}
+nav a:hover {
+	color:#ffe600;
+	transition: 0.2s ease;
+	text-decoration: none;
+}
+
+.welcome {
+	display: block;
+	padding-top:25vh;
+	
+}
+
+.welcome img {
+	display: block;
+	width: 15vw;
+	height:15vw;
+	border-radius:50%;
+	margin: 0 auto;
+}
+
+.welcome img:hover {
+	width:15.2vw;
+	height:15.2vw;
+	transition: 0.2s ease;
+	
+}
+
+section .welcome h2{
+	display: block;
+	text-align: center;
+	font-weight: 600;
+	font-size: 3vw;
+	color:#ffffff;
+	padding-top:3vh;
+}
+section .welcome span {
+	font-weight: 600;
+	font-size: 3vw;
+	color:#ffe600;
+	padding-top:3vh;
+}
+section .welcome p{
+	display: block;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5vw;
+	color:#ffffff;
+	padding-top:3vh;
+}
+.slogan {
+	padding-top:5vh;
+}
+.slogan h1{
+	display: block;
+	text-align: center;
+	font-weight: 600;
+	font-size: 3vw;
+	color:#0400ff;
+	padding-top:3vh;
+}
+.slogan p{
+	display: block;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2vw;
+	color:#000000;
+	padding:3vh 30vw;
+}
+
+section #projects {
+	background-color: #ffffff;
+	padding:10vh;
+	margin:0vw 12vw;
+	position: static;
+}
+#projects h2{
+	display:block;
+	color:#0400ff ;
+	text-align: center;
+	font-size: 3.5vw;
+	font-weight: 600;
+	margin: 10vh 0vh;
+	text-decoration: underline;
+
+}
+#projects .menu img{
+	height:30vh;
+	width: 35vw;
+	border-radius: 5%;
+	margin-top: 3vh;
+	
+}
+.menu-op:hover{
+	background-color: rgb(182, 182, 235);
+	margin-top: 2vh;
+}
+.detail {
+	font-family: 'Times New Roman', Times, serif;
+	display: block;
+	width: 35vw;
+	opacity: inherit;
+	border-radius: 5%;
+}
+.detail  h4{
+	color: #A3395B ;
+	font-weight: 600;
+	margin-top: 2vh;
+}
+.detail  p{
+	color: #131212;
+}
+.detail a{
+	display: block;
+	background-color: #0400ff;
+	border-radius: 5%;
+	color: #ffffff;
+	width: fit-content;
+	padding:1vh;
+	margin-bottom: 3vh;
+}
+.detail a:hover{
+	text-decoration: none;
+	color: #ffffff;
+}
+#hidden{
+	display:none;
+}
+#show{
+	margin-top: 20vh;
+	text-align: center;
+	
+}
+#contact{
+	background-color: #0400ff;
+	height:50vh;
+	margin-top: 20vh;
+	text-align: center;
+}
+#contact-box{
+	position: absolute;
+	margin-top: 10vh;
+	background-color: #ffffff;
+	width: 40vw;
+	margin-left: 30vw ;
+	
+}
+#contact-box p ,a{
+	color: #07010c;
+	text-decoration: none;
+
+}
+#copyright{
+	text-align: center;
+	color: #252424;
+	
+}
