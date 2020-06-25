@@ -8,13 +8,20 @@
 }
 html body {
 	font-family: 'Ubuntu', sans-serif;
+	background-image: url(../img/hero-bg.jpg);
+	background-repeat: repeat;
 
 }
 #welpart{
 	background-color: #0400ff;
 	height:100vh;
+	opacity: 0.85;
 }
-
+main{
+	z-index:0.2;
+	background-color: #ffffff;
+	opacity: 0.98;
+}
 nav {
 	position: fixed;
     width: 100%;
@@ -103,7 +110,7 @@ section .welcome p{
 	padding:3vh 30vw;
 }
 
-section #projects {
+#projects {
 	background-color: #ffffff;
 	padding:10vh;
 	margin:0vw 12vw;
@@ -121,14 +128,14 @@ section #projects {
 }
 #projects .menu img{
 	height:30vh;
-	width: 35vw;
+	width: 30vw;
 	border-radius: 5%;
 	margin-top: 3vh;
 	
 }
 .menu-op:hover{
 	background-color: rgb(182, 182, 235);
-	margin-top: 2vh;
+	overflow: inherit;
 }
 .detail {
 	font-family: 'Times New Roman', Times, serif;
@@ -136,6 +143,7 @@ section #projects {
 	width: 35vw;
 	opacity: inherit;
 	border-radius: 5%;
+	
 }
 .detail  h4{
 	color: #A3395B ;
@@ -174,7 +182,10 @@ section #projects {
 }
 #contact-box{
 	position: absolute;
+	display: block;
+	border-radius: 25%;
 	margin-top: 10vh;
+	margin-bottom: 10vh;
 	background-color: #ffffff;
 	width: 40vw;
 	margin-left: 30vw ;
