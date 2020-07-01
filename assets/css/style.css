@@ -113,7 +113,7 @@ section .welcome p{
 #projects {
 	background-color: #ffffff;
 	padding:10vh;
-	margin:0vw 12vw;
+	margin:0vw 5vw;
 	position: static;
 }
 #projects h2{
@@ -127,8 +127,8 @@ section .welcome p{
 
 }
 #projects .menu img{
-	height:30vh;
-	width: 30vw;
+	height:inherit;
+	width: inherit;
 	border-radius: 5%;
 	margin-top: 3vh;
 	
@@ -140,9 +140,10 @@ section .welcome p{
 .detail {
 	font-family: 'Times New Roman', Times, serif;
 	display: block;
-	width: 35vw;
+	width: inherit;
 	opacity: inherit;
 	border-radius: 5%;
+	text-align: right;
 	
 }
 .detail  h4{
@@ -154,7 +155,7 @@ section .welcome p{
 	color: #131212;
 }
 .detail a{
-	display: block;
+	display:inline-block;
 	background-color: #0400ff;
 	border-radius: 5%;
 	color: #ffffff;
@@ -200,4 +201,67 @@ section .welcome p{
 	text-align: center;
 	color: #252424;
 	
+}
+
+@media only screen and (max-width: 768px) {
+						/* For mobile phones: */
+						.welcome img {
+							width: 35vw;
+							height:35vw;
+						}
+
+						.welcome img:hover {
+							width:35.2vw;
+							height:35.2vw;
+							
+						}
+						section .welcome h2{
+							font-size: 6vw;
+							padding-top:3vh;
+						}
+						section .welcome span {
+							font-size:6vw;
+							padding-top:3vh;
+						}
+						section .welcome p{
+							font-size: 3.5vw;
+						}
+						.slogan {
+							padding-top:5vw;
+						}
+						.slogan h1{
+							font-size: 7vw;
+						}
+						.slogan p{
+							font-size: 3.5vw;
+							padding:3vh 10vw;
+						}
+						#projects {
+							padding:3vh 10vw;
+							position: static;
+							margin:0 auto;
+						}
+						#projects h2{
+							font-size: 7vw;
+							
+						}
+						#contact{
+							height:55vh;
+							margin-top: 10vh;
+						}
+						#contact-box{
+							border-radius: 10%;
+							margin-top: inherit;
+							margin-bottom: 5%;
+							width: 50%;
+							margin-left: 25% ;
+							padding: 1%;
+							
+						}
+						}
+						#copyright{
+							text-align: center;
+							color: #252424;
+							
+						}
 }
